@@ -45,24 +45,9 @@ tasks:
     src: https://github.com/Bob74/bob74_ipl
 
   - action: download_github
-    dest: ./resources/[standalone]/safecracker
-    ref: main
-    src: https://github.com/qbox-project/safecracker
-
-  - action: download_github
     dest: ./resources/[standalone]/screenshot-basic
     ref: master
     src: https://github.com/citizenfx/screenshot-basic
-
-  - action: download_github
-    dest: ./resources/[standalone]/interact-sound
-    ref: master
-    src: https://github.com/qbox-project/interact-sound
-
-  - action: download_github
-    dest: ./resources/[standalone]/mhacking
-    ref: main
-    src: https://github.com/qbox-project/mhacking
 
   - action: download_github
     dest: ./resources/[standalone]/connectqueue
@@ -77,23 +62,6 @@ tasks:
     ref: main
     src: https://github.com/Scullyy/scully_emotemenu
 
-  - action: download_github
-    dest: ./resources/[standalone]/PolyZone
-    ref: master
-    src: https://github.com/qbox-project/PolyZone
-
-  - action: download_github
-    dest: ./resources/[standalone]/ultra-voltlab
-    ref: main
-    src: https://github.com/ultrahacx/ultra-voltlab
-
-  - action: download_file
-    path: ./tmp/Renewed-Banking.zip
-    url: https://github.com/Renewed-Scripts/Renewed-Banking/releases/latest/download/Renewed-Banking.zip
-  - action: unzip
-    dest: ./resources/[standalone]
-    src: ./tmp/Renewed-Banking.zip
-
   - action: download_file
     path: ./tmp/illenium-appearance.zip
     url: https://github.com/iLLeniumStudios/illenium-appearance/releases/latest/download/illenium-appearance.zip
@@ -101,46 +69,17 @@ tasks:
     dest: ./resources/[standalone]
     src: ./tmp/illenium-appearance.zip
 
-  - action: download_github
-    dest: ./resources/[standalone]/MugShotBase64
-    ref: main
-    src: https://github.com/BaziForYou/MugShotBase64
-    subpath: MugShotBase64
-
-  - action: download_file
-    url: https://raw.githubusercontent.com/BaziForYou/MugShotBase64/main/README.md
-    path: ./resources/[standalone]/MugShotBase64/README.md
-
-  - action: download_file
-    url: https://raw.githubusercontent.com/BaziForYou/MugShotBase64/main/LICENSE.md
-    path: ./resources/[standalone]/MugShotBase64/LICENSE.md
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_idcard
-    ref: main
-    src: https://github.com/Qbox-project/qbx_idcard
-
     # VOICE
   - action: download_github
     dest: ./resources/[voice]/pma-voice
     ref: main
     src: https://github.com/AvarianKnight/pma-voice
 
-  - action: download_github
-    dest: ./resources/[voice]/qbx_radio
-    ref: main
-    src: https://github.com/qbox-project/qbx_radio
-
   # Downloading Qbox resources
   - action: download_github
     dest: ./resources/[qbx]/qbx_core
     ref: main
     src: https://github.com/qbox-project/qbx_core
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_scoreboard
-    ref: main
-    src: https://github.com/qbox-project/qbx_scoreboard
 
   - action: download_github
     dest: ./resources/[qbx]/qbx_adminmenu
@@ -151,52 +90,17 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qbx]/qbx_vehicleshop
-    ref: main
-    src: https://github.com/qbox-project/qbx_vehicleshop
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_prison
-    ref: main
-    src: https://github.com/qbox-project/qbx_prison
-
-  - action: download_github
     dest: ./resources/[qbx]/qbx_hud
     ref: main
     src: https://github.com/qbox-project/qbx_hud
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_management
-    ref: main
-    src: https://github.com/qbox-project/qbx_management
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_garages
-    ref: main
-    src: https://github.com/qbox-project/qbx_garages
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_ambulancejob
-    ref: main
-    src: https://github.com/qbox-project/qbx_ambulancejob
 
   - action: download_github
     dest: ./resources/[qbx]/qbx_medical
     ref: main
     src: https://github.com/qbox-project/qbx_medical
 
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_vehiclefailure
-    ref: main
-    src: https://github.com/qbox-project/qbx_vehiclefailure
-
   - action: waste_time # prevent github throttling
     seconds: 10
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_radialmenu
-    ref: main
-    src: https://github.com/qbox-project/qbx_radialmenu
 
   - action: download_github
     dest: ./resources/[qbx]/qbx_weathersync
@@ -204,50 +108,12 @@ tasks:
     src: https://github.com/qbox-project/qbx_weathersync
 
   - action: download_github
-    dest: ./resources/[qbx]/qbx_policejob
-    ref: main
-    src: https://github.com/qbox-project/qbx_policejob
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_vehiclekeys
-    ref: main
-    src: https://github.com/qbox-project/qbx_vehiclekeys
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_phone
-    ref: main
-    src: https://github.com/qbox-project/qbx_phone
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_skillbar
-    ref: main
-    src: https://github.com/qbox-project/qbx_skillbar
-
-  - action: download_github
     dest: ./resources/[qbx]/qbx_smallresources
     ref: main
     src: https://github.com/qbox-project/qbx_smallresources
 
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_cityhall
-    ref: main
-    src: https://github.com/qbox-project/qbx_cityhall
-
   - action: waste_time # prevent github throttling
     seconds: 10
-
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_commandbinding
-    ref: main
-    src: https://github.com/qbox-project/qbx_commandbinding
-
-  - action: waste_time # prevent github throttling
-    seconds: 10
-  
-  - action: download_github
-    dest: ./resources/[qbx]/qbx_lockpick
-    ref: main
-    src: https://github.com/qbox-project/qbx_lockpick
 
   - action: download_github
     dest: ./resources/[qbx]/qbx_loading
@@ -273,13 +139,6 @@ tasks:
   - action: unzip
     dest: ./resources/[ox]
     src: ./tmp/oxmysql.zip
-
-  - action: download_file
-    path: ./tmp/ox_doorlock.zip
-    url: https://github.com/overextended/ox_doorlock/releases/latest/download/ox_doorlock.zip
-  - action: unzip
-    dest: ./resources/[ox]
-    src: ./tmp/ox_doorlock.zip
 
   - action: download_file
     path: ./tmp/ox_inventory.zip
