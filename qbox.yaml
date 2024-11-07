@@ -6,7 +6,7 @@ version: 1.0.0
 tasks:
   #  Download Base Files
   - action: download_github
-    src: https://github.com/xdleozz/txAdminRecipe
+    src: https://github.com/xdleozz/qbox-config
     ref: main
     dest: ./tmp/qbox
 
