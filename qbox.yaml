@@ -1,14 +1,12 @@
 $engine: 3
 $onesync: on
-name: Qbox Project
+name: Qbox Config
 version: 1.0.0
-author: The Community
-description: A FiveM core with a load of bloat.
 
 tasks:
   #  Download Base Files
   - action: download_github
-    src: https://github.com/qbox-project/txAdminRecipe
+    src: https://github.com/xdleozz/txAdminRecipe
     ref: main
     dest: ./tmp/qbox
 
@@ -67,7 +65,7 @@ tasks:
     ref: main
     src: https://github.com/qbox-project/mhacking
 
-  - action: waste_time # prevent github throttling
+  - action: waste_time
     seconds: 10
 
   - action: download_github
@@ -189,7 +187,7 @@ tasks:
     dest: ./resources/[qbx]
     src: ./tmp/qbx_adminmenu.zip
 
-  - action: waste_time # prevent github throttling
+  - action: waste_time
     seconds: 10
 
   - action: download_github
@@ -263,7 +261,7 @@ tasks:
     ref: main
     src: https://github.com/qbox-project/qbx_medical
 
-  - action: waste_time # prevent github throttling
+  - action: waste_time
     seconds: 10
 
   - action: download_github
@@ -386,7 +384,7 @@ tasks:
     ref: main
     src: https://github.com/qbox-project/qbx_jewelery
 
-  - action: waste_time # prevent github throttling
+  - action: waste_time
     seconds: 10
 
   - action: download_github
@@ -411,7 +409,7 @@ tasks:
   - action: query_database
     file: ./resources/[qbx]/qbx_drugs/qbx_drugs.sql
 
-  - action: waste_time # prevent github throttling
+  - action: waste_time
     seconds: 10
 
   - action: download_github
